@@ -1,2 +1,2 @@
 # cramsing.github.io
-Persona graduate student website
+Personal graduate student website
