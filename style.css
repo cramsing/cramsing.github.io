@@ -1,43 +1,45 @@
 html, body {
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100%;
- margin: 1px;
- padding-left: 10px;
- padding-right: 10px;
+ margin: 60px auto;
+ width: 70%
+}
 
+nav ul, footer ul {
  font-family: 'Open Sans', sans-serif;
+ padding: 0px;
+ list-style: none;
+ font-weight: bold;
+}
+
+nav ul li, footer ul li {
+ diplay: inline;
+ margin-right: 20px;
+}
+
+a {
+ text-decoration: none;
+ color: #999;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+h1 {
+ font-size: 3em;
+ font-family: 'Helvetica', 'Sans-Serif';
 }
 
 .name {
  font-family: 'Roboto', sans-serif;
- margin-bottom: 2px;
 }
-
-.wrapper{
- background-color: purple;
-
- max-width: 50%;
- display: flex;
- flex-direction: row;
- height: 100%;
+p {
+ font-size: 1.5em;
+ line-height: 1.4em;
+ color: #333;
 }
-
-.left, .right {
- background-color: lightblue;
-
- margin: 5px;
- max-width: 50%;
- flex: 1;
- display: flex;
- flex-direction: column;
- justify-content: center;
-}
-
-.left {
- align-items: center;
- justify-content: center;
+footer {
+ border-top: 1px solid #d5d5d5;
+ font-size: .8em;
 }
 
 .profile-picture{
